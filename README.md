@@ -19,10 +19,11 @@ Step 2
 
 # To rerun all codes and perform indexing and search
 rm src.zip 
-rm -r inverted_indexes results
-zip -r src.zip src
-rm -r src
-bash eval.sh
+rm -r inverted_indexes results 
+zip -r src.zip src 
+rm -r src 
+bash eval.sh 
+
 
 # To create indexes only
 cd src
